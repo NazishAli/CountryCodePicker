@@ -21,6 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7EF006931DA4E7770043D7DA /* CountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF006911DA4E7770043D7DA /* CountryViewController.m */; };
+		7EF006941DA4E7770043D7DA /* CountryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF006921DA4E7770043D7DA /* CountryViewController.xib */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		99AA65206FCE5BFB49B24CDC /* Pods_CountryCodePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0659E12E805AC496D24C92D /* Pods_CountryCodePicker_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		7EF006901DA4E7770043D7DA /* CountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryViewController.h; sourceTree = "<group>"; };
+		7EF006911DA4E7770043D7DA /* CountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryViewController.m; sourceTree = "<group>"; };
+		7EF006921DA4E7770043D7DA /* CountryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryViewController.xib; sourceTree = "<group>"; };
 		84CEB6E38BDD31FFD2201C86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8573DCCC9DDE52A6EE68394B /* Pods-CountryCodePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryCodePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountryCodePicker_Tests/Pods-CountryCodePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -135,6 +140,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CountryCodeViewController.h */,
 				6003F5A6195388D20070C39A /* CountryCodeViewController.m */,
+				7EF006901DA4E7770043D7DA /* CountryViewController.h */,
+				7EF006911DA4E7770043D7DA /* CountryViewController.m */,
+				7EF006921DA4E7770043D7DA /* CountryViewController.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -277,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				7EF006941DA4E7770043D7DA /* CountryViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CountryCodeAppDelegate.m in Sources */,
+				7EF006931DA4E7770043D7DA /* CountryViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* CountryCodeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

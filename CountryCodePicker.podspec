@@ -24,13 +24,14 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/NazishAli/CountryCodePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Nazish Ali' => 'nazish.ali@quickli.com' }
+  s.author           = { 'Nazish Ali' => 'nazishali6@gmail.com' }
   s.source           = { :git => 'https://github.com/NazishAli/CountryCodePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CountryCodePicker/**/*'
+  s.vendored_frameworks = 'UIBasedSdk/**/FrameWork1.framework'
   
   # s.resource_bundles = {
   #   'CountryCodePicker' => ['CountryCodePicker/Assets/*.png']

@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CountryCodePicker/**/*'
-  s.vendored_frameworks = 'CountryCodePicker/**/FrameWork1.framework'
+  s.vendored_frameworks = 'CountryCodePicker/**/FrameWork/FrameWork1.framework'
   
   # s.resource_bundles = {
   #   'CountryCodePicker' => ['CountryCodePicker/Assets/*.png']

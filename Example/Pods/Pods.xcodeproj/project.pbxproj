@@ -23,7 +23,7 @@
 		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */; };
-		7E7CBA9B1DA7AB1E00E207B9 /* FrameWork1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CBA9A1DA7AB1E00E207B9 /* FrameWork1.framework */; };
+		7E7CBA9D1DA7ABFA00E207B9 /* FrameWork1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CBA9C1DA7ABFA00E207B9 /* FrameWork1.framework */; };
 		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,7 +89,7 @@
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		79FC78845C127F8FD890C85EB8FE82D9 /* Pods-CountryCodePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		7E7CBA9A1DA7AB1E00E207B9 /* FrameWork1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameWork1.framework; sourceTree = "<group>"; };
+		7E7CBA9C1DA7ABFA00E207B9 /* FrameWork1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameWork1.framework; sourceTree = "<group>"; };
 		7EDC1F17E566F6E0F298E3BA31BEE66A /* Pods-CountryCodePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CountryCodePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		801FFEE081A7A2A958A56BB0D0BAC182 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CCFE80BAC127A114EA37E6466E64D2 /* Foundation.framework in Frameworks */,
-				7E7CBA9B1DA7AB1E00E207B9 /* FrameWork1.framework in Frameworks */,
+				7E7CBA9D1DA7ABFA00E207B9 /* FrameWork1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 		7E7CBA991DA7AB0D00E207B9 /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				7E7CBA9A1DA7AB1E00E207B9 /* FrameWork1.framework */,
+				7E7CBA9C1DA7ABFA00E207B9 /* FrameWork1.framework */,
 			);
 			path = FrameWork;
 			sourceTree = "<group>";
